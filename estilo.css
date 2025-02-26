@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+header {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: -5px;
+
+}
+.item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.item img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    object-fit: cover;
+}
+.item div {
+    width: 70%;
+    padding-right: 10px;
+}
+.quantity-btn {
+    position: absolute;
+    bottom: 10px;
+    width: 60px !important;
+    right: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.quantity-btn:hover {
+    background-color: #e65c00;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+button:hover{
+    color: #535252;
+    cursor: pointer;
+}
+footer {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
+}
+
+.quantity {
+    display: flex;
+    /* gap: 5px; */
+    background-color: red;
+    border-radius: 25%;
+    border:1px solid #333;
+    width: 70px  !important;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+
+    #fecharPedido{
+    color: #e3e1e1;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+#fecharPedido:hover{
+    background-color: rgb(10, 169, 10);
+    cursor: pointer;
+    color: rgb(246, 246, 246);
+
+}

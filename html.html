@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burlover Hamburgueria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Salgvale</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="menu">
+        <h2>Nosso Cardápio</h2>
+        <br>
+        <h3>Hambúrguer</h3>
+        <div class="item">
+            <div>
+                <h3 class="titulo">X-Carne</h3>
+                <!-- <p>Hambúrguer e queijo</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img1.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">X-Cheddar</h3>
+                <p>  </p>
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img1.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">X-Bacon</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img1.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <h3>Croissant</h3>
+    
+        <div class="item">
+            <div>
+                <h3 class="titulo">Croissant queijo</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img2.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">Croissant carne</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img2.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">Croissant frango</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img2.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+
+<br>
+<br>
+        <h3>Folhado</h3>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">Folhado de frango</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img3.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        
+        <div class="item">
+            <div>
+                <h3 class="titulo">Folhado de presunto e queijo</h3>
+                <!-- <p>Pão, carne, queijo e salada.</p> -->
+                <span>R$ 25,00</span>
+            </div>
+            <img src="img3.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>
+                <h3 class="titulo">Folhado de costela</h3>
+                <!-- <p>Folhado de costela é uma massa dourada e crocante, recheada com costela desfiada e suculenta.</p> -->
+                <span>R$ 36,00</span>
+            </div>
+            <img src="img3.jpg" alt="Hambúrguer Clássico">
+            <div class="quantity-btn">
+                <button onclick="decrease(this)">-</button>
+                <span>0</span>
+                <button onclick="increase(this)">+</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+        <a href="#" id="fecharPedido">Fechar Pedido</a>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma fabrica apaixonada por sabores autênticos e ingredientes de qualidade.</p>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>Endereço: Rua Exemplo, 123 - São Paulo</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Salgvale. Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
